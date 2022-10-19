@@ -24,24 +24,37 @@ p {
 
 }
 
-.nav-list {
-    display: flex;
-    color: #e5e7eb;
-    flex-wrap: wrap;
-    list-style: none;
-    border: solid 3px;
-    justify-content: center;
-    padding: 5px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    position: relative;
-    left: 500px;
-    bottom: 250px;
-    
-    
+.join-button {
+    background-color: rgb(20, 68, 122);;
+    color: white;
+    height: 50px;
+    width: 150px;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 7px;
+    cursor: pointer;
     
 }
 
-.nav-list li {
-    flex: 1;
+.tweet-button {
+    background-color: rgb(37, 137, 252);;
+    color: white;
+    height: 50px;
+    width: 150px;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 8px;
+    
+}
+
+.tweet-button:hover {
+    background-color: rgb(0, 115, 168);
+    opacity: 0.5;
+}
+
+.tweet-button:active {
+    background-color: rgb(0, 247, 255);
 }
