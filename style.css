@@ -102,5 +102,12 @@ p {
 
 .second-section {
     background-color: white;
+    text-align: center;
     
+}
+
+.progress-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
