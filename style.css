@@ -47,6 +47,7 @@ p {
     display: flex;
     align-items: flex-end;
     margin-left: 75px;  
+    flex-shrink: 0;
     
 }
 
@@ -115,30 +116,28 @@ p {
     background-color: white;
     text-align: center;
     border: solid salmon 5px;
-    height: 200px;
+    height: 500px;
     
 }
 
 .second-section-heading {
     margin-top: 15px;
     margin-bottom: 25px;
-    text-align: center;
-    
-
 }
 
 .progress-container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-evenly;   
+    border: solid green;
+    align-items: center;
     
-      
 }   
-
-.arsenalimage {
-    height: 300px;
-    width: 200px;
+    
+.progress-container img {
+    width: 100px;
+    height: 100px
     object-fit: cover;
+    
 }
 
 
