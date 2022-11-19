@@ -112,19 +112,11 @@ p {
     
 }
 
-.second-section {
-    background-color: white;
-    text-align: center;
-    border: solid salmon 5px;
-    height: 500px;
-    
-}
-
 .second-section-heading {
-    margin-top: 15px;
-    margin-bottom: 25px;
     font-size: 25px;
     color: #1f2947;
+    background-color: white;
+    text-align: center  ;
 
 }
 
@@ -133,7 +125,10 @@ p {
     justify-content: space-evenly;   
     border: solid green;
     align-items: center;
-    margin-top: 120px;
+    background-color: white;
+    text-align: center;
+    padding: 50 50 50 50;
+    
     
 }   
     
@@ -145,7 +140,28 @@ p {
     
 }
 
+.third-section {
+    display: flex;
+    border: solid rgb(222, 196, 0);
+    background-color: #e5e7eb;
+    
+}
 
+.quote, .socrates {
+    color: black;
+    font-style: italic;
+    text-align: left;
+    
+}
+
+    
+.poki-image {
+    object-fit: scale-down;
+    height: 750px;
+    padding-left: 250px;
+    
+    
+}
 
 
 
