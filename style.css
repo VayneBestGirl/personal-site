@@ -178,6 +178,8 @@ p {
 
 .fourth-section-container {
     display: flex;
+    justify-content: space-evenly;
+    margin-top: 75px;
 
 }
 
