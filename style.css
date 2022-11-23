@@ -117,13 +117,13 @@ p {
     color: #1f2947;
     background-color: white;
     text-align: center  ;
+    margin-top: 50px;
 
 }
 
 .progress-container {
     display: flex;
     justify-content: space-evenly;   
-    border: solid green;
     align-items: center;
     background-color: white;
     text-align: center;
@@ -142,7 +142,6 @@ p {
 
 .third-section {
     display: flex;
-    border: solid rgb(222, 196, 0);
     background-color: #e5e7eb;
     
 }
@@ -168,11 +167,14 @@ p {
 }
 
 .fourth-section {
-    border: solid orange;
     color: white;
-    background-color: rgb(20, 68, 122); 
+    background-color:#1f2947;
     text-align: center;
     font-size: 25px;
+}
+
+.fourth-section-heading {
+    margin-top: 50px;
 }
 
 
@@ -185,4 +187,12 @@ p {
 
 .fourth-section-container img {
     height: 100px;
+    padding: 50 50 50 50;
+}
+
+.footer {
+    background-color: #1f2947;
+    margin-top: 75px;
+    font-size: 15px;
+    
 }
