@@ -14,7 +14,7 @@ h1 {
     color: #f9faf8;
     text-align: center;
     margin-bottom: 75px;
-    margin-top: 200px;
+    margin-top: 125px;
 }
 
 p {
@@ -118,6 +118,7 @@ p {
     background-color: white;
     text-align: center  ;
     margin-top: 50px;
+    padding-top: 25px;
 
 }
 
@@ -150,7 +151,8 @@ p {
     color: black;
     font-style: italic;
     text-align: left;
-    margin-top: 325px;
+    margin-top: 275px;
+    padding-left: 50px;
 }
 
 .alexis {
